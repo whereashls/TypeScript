@@ -1,0 +1,50 @@
+Ryan Dah1 
+Deno（v8引擎） 有可能代替 node 
+TypeScript JS的超集 属于编程语言 静态类型和面向对象
+大型应用 或 多人协作
+
+ts  vs   js
+
+1.应用程序
+2.是JS超集 (less sass----css) (ts----js)
+3.跨平台 开源
+4.开始于JS,终止于JS
+5.重用JS,，甚至可以引入js流行的库 echats
+6.TypeScript 类 接口 模块
+
+TypeScript开发环境的构建
+
+安装node
+
+在cmd查询 node npm版本号
+
+显示版本号则说明安装成功
+
+在终端输入
+
+npm install typescript -g
+
+安装成功之后输入如下命令，查看版本号
+
+tsc --version
+
+在终端输入如下命令进行初始化
+
+npm init -y
+
+这样会出现package.json文件。-y表示默认
+
+不需要修改什么，因为我们接下来主要是学习语法
+
+接下来输入如下命令tsc --init
+
+会生成tsconfig.json文件。
+
+这个文件是我们写ts文件之后如何编译成为js文件的一个配置文件
+
+接下来我们在终端输入以下命令
+
+npm install @types/node --dev-save
+
+它是在我们的开发环境中使用的
+它主要解决的是模块的声明文件问题
